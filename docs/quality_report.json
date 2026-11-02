@@ -1,0 +1,30 @@
+{
+  "source_rows": 541909,
+  "accepted_rows": 539392,
+  "rejected_rows": 2517,
+  "duplicate_candidate_rows_preserved": 5268,
+  "accepted_rows_without_customer": 132603,
+  "rejection_rule_counts": {
+    "missing_key": 0,
+    "invalid_date": 0,
+    "invalid_quantity": 0,
+    "non_positive_price": 2517,
+    "inconsistent_cancellation": 0
+  },
+  "gross_sales_mills": 10666684544,
+  "credits_mills": 896812490,
+  "net_movement_mills": 9769872054,
+  "tables": {
+    "fact_invoice_line": 539392,
+    "quarantine": 2517,
+    "mart_invoice": 23796,
+    "mart_daily_country": 1716
+  },
+  "source_url": "https://archive.ics.uci.edu/static/public/352/online+retail.zip",
+  "source_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+  "period_start": "2010-12-01",
+  "period_end": "2011-12-09",
+  "gross_sales_gbp": 10666684.544,
+  "credits_gbp": 896812.49,
+  "net_movement_gbp": 9769872.054
+}
